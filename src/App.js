@@ -1,14 +1,15 @@
 import './App.css';
-import HookCounter from './components/HookCounter';
-import HookCounterTwo from './components/HookCounterTwo';
+import ClassMouse from './components/ClassMouse';
+import DataFetching from './components/DataFetching';
+import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
 
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <HookCounter></HookCounter>
-        <HookCounterTwo></HookCounterTwo>
+        <DataFetching></DataFetching>
       </header>
     </div>
   );
